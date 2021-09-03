@@ -1,3 +1,32 @@
+/*
+#tituloH1{
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(127, 0, 245) 3px 3px 5px;
+
+}
+
+#tituloH1:hover{
+  color: rgb(145, 45, 163);
+  text-shadow: rgb(0, 0, 0) 3px 3px 5px;
+}
+*/
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  margin: -0.125rem 0 0;
+}
+
+.dropdown>.dropdown-toggle:active {
+  pointer-events: none;
+}
+
+.cambioFondo:hover{
+  background: linear-gradient(rgba(158, 158, 158, 0.849)0%, rgba(97, 97, 97, 0.801)100%) !important;
+}
+
 .waveWrapper {
   overflow: hidden;
   position: absolute;
