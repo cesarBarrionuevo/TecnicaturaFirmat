@@ -2,121 +2,130 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
-    />
-    <title>MauelLeiva</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css"
-    />
-    <link rel="stylesheet" href="assets/css/styles.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+    <title>ManuelLeiva</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css"/>
+    <link rel="stylesheet" href="assets/css/styles.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
   </head>
+
   <body style="margin: 50px 0px 0px 0px">
+    
     <header>
-      <nav
-        class="
-          navbar navbar-dark navbar-expand-md
-          fixed-top
-          bg-dark
-          navbar--apple
-        "
-      >
+
+      <nav class="navbar navbar-dark navbar-expand-xl fixed-top bg-dark navbar--apple font-weight-bold">
+      
         <div class="container">
-          <button
-            data-toggle="collapse"
-            class="navbar-toggler"
-            data-target="#menu"
-          >
-            <span class="sr-only">Toggle navigation</span
-            ><span class="navbar-toggler-icon"
-              ><i class="la la-navicon"></i
-            ></span>
+          <button data-toggle="collapse" class="navbar-toggler" data-target="#menu" type="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="navbar-toggler-icon">
+              <i class="la la-navicon"></i>
+            </span>
           </button>
+
           <div class="collapse navbar-collapse" id="menu">
+
+            <div class="nav-item d-none d-xs-block d-md-block" style="background-color: rgb(0, 0, 0); text-align: justify;">       
+              <img class="img-fluid" src="assets/img/LogoLeiva.png" style="width: 36px;"/>       
+            </div>
+            
             <ul class="navbar-nav flex-grow-1 justify-content-between">
+              
               <li class="nav-item d-none d-xs-block d-md-block">
-                <a class="nav-link" href="#"
-                  ><i class="fa fa-mortar-board apple-logo"></i>&nbsp; Instituto
-                  Superior "Manuel Leiva"</a
-                >
+                <a class="nav-link" id="titulo" href="#">
+                  &nbsp; Instituto Superior de Profesorado N° 1 "Manuel Leiva"
+                </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Carreras</a>
+
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" data-toggle="dropdown" aria-expanded="false">Carreras</a>
+                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item text-white small cambioFondo" href="#">Profesorado de Educación Primaria</a></li>
+                  <li><a class="dropdown-item text-white small cambioFondo" href="#">Profesorado de Educación Inicial </a></li>
+                  <li><a class="dropdown-item text-white small cambioFondo" href="#">Profesorado de Educación Secundaria en Administración</a></li>
+                  <li><a class="dropdown-item text-white small cambioFondo" href="#">Profesorado de Educación Secundaria en Biología</a></li>
+                  <li><a class="dropdown-item text-white small cambioFondo" href="#">Profesorado de Educación Secundaria en Economía</a></li>
+                  <li><a class="dropdown-item text-white small cambioFondo" href="#">Profesorado de Educación Secundaria en Matemática</a></li>
+                  <li><a class="dropdown-item text-white small cambioFondo" href="#">Profesorado de Educación Secundaria en Lengua y Literatura</a></li>
+                  <li><a class="dropdown-item text-white small cambioFondo" href="#">Tecnicatura de Analísta en Medio Ambiente</a></li>
+                  <li><a class="dropdown-item text-white small cambioFondo" href="#">Tecnicatura de Gestión de las Organizaciones</a></li>
+                  <li><a class="dropdown-item text-white small cambioFondo" href="#">Tecnicatura de Desarrollo de Software</a></li>
+                </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Docentes</a>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" data-toggle="dropdown" aria-expanded="false">Docentes</a>
+                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item text-white small cambioFondo" href="#">Formularios para Descargar</a></li>
+                  <li><a class="dropdown-item text-white small cambioFondo" href="#">Enlaces de Interés</a></li>
+                </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Alumnado</a>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" data-toggle="dropdown" aria-expanded="false">Alumnado</a>
+                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item text-white small cambioFondo" href="#">Calendario Académico</a></li>
+                  <li><a class="dropdown-item text-white small cambioFondo" href="#">Horarios</a></li>
+                  <li><a class="dropdown-item text-white small cambioFondo" href="#">Mesas de Exámenes</a></li>
+                  <li><a class="dropdown-item text-white small cambioFondo" href="#">Inscripción al Cursado</a></li>
+                  <li><a class="dropdown-item text-white small cambioFondo" href="#">Homologaciones</a></li>
+                  <li><a class="dropdown-item text-white small cambioFondo" href="#">Adscripciones</a></li>
+                  <li><a class="dropdown-item text-white small cambioFondo" href="#">Ingresantes</a></li>
+                </ul>
               </li>
+
               <li class="nav-item">
                 <a class="nav-link" href="#">Campus Virtual</a>
               </li>
+
             </ul>
           </div>
+
         </div>
       </nav>
+
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+      </style>
+  
+      <div class="row font-weight-bold" style="height: 40px; margin: 0px ;background: linear-gradient(rgba(219, 172, 84, 0.849)0%, rgba(226, 219, 156, 0.801)100%); opacity: 0.9; font-family: 'Poppins', sans-serif;">
+        <div class="col d-xl-flex justify-content-xl-center align-items-xl-center" data-bss-hover-animate="pulse" style="height: 40px;">
+          <a class="text-dark miLink" href="#">Nuestra Institución</a>
+        </div>
+        <div class="col d-xl-flex justify-content-xl-center align-items-xl-center" data-bss-hover-animate="pulse" style="height: 40px">
+          <a class="text-dark miLink" href="#">Capacitaciones</a>
+        </div>    
+        <div class="col d-xl-flex justify-content-xl-center align-items-xl-center" data-bss-hover-animate="pulse" style="height: 40px">
+          <a class="text-dark miLink" href="#">Normativa</a>
+        </div>
+        <div class="col d-xl-flex justify-content-xl-center align-items-xl-center" data-bss-hover-animate="pulse" style="height: 40px">
+          <a class="text-dark miLink" href="#">Biblioteca</a>
+        </div>
+      </div>
+
     </header>
-    <div class="row" style="height: 40px; background: rgba(249, 185, 88, 0.91)">
-      <div
-        class="col d-xl-flex justify-content-xl-center align-items-xl-center"
-        data-bss-hover-animate="pulse"
-        style="height: 40px"
-      >
-        <a class="text-dark miLink" href="#">Nuestra Institución</a>
+
+    <!--
+      <div class="grid-container grid-parent">
+        ::before
+        <a href="#" target="_blank" class="def" rel="nofollow">Nuestra Institución</a>
+        <a href="#" target="_blank" class="def" rel="nofollow">Capacitaciones</a>
+        <a href="#" target="_blank" class="def" rel="nofollow">Normativa</a>
+        <a href="#" target="_blank" class="def" rel="nofollow">Biblioteca</a>
       </div>
-      <div
-        class="col d-xl-flex justify-content-xl-center align-items-xl-center"
-        data-bss-hover-animate="pulse"
-        style="height: 40px"
-      >
-        <a class="text-dark miLink" href="#">Capacitaciones</a>
+
+      <div class="col d-xl-flex justify-content-xl-center align-items-xl-center" style="height: 30px; background: rgba(86, 80, 80, 0.72)">       
+        <img class="img-fluid" src="assets/img/LogoLeiva.png" style="width: 30px"/>       
       </div>
-      <div
-        class="col d-xl-flex justify-content-xl-center align-items-xl-center"
-        style="height: 140px; background: rgba(86, 80, 80, 0.72)"
-      >
-        <img
-          class="img-fluid"
-          src="assets/img/LogoLeiva.png"
-          style="width: 120px"
-        />
-      </div>
-      <div
-        class="col d-xl-flex justify-content-xl-center align-items-xl-center"
-        style="height: 40px"
-      >
-        <a class="text-dark miLink" data-bss-hover-animate="pulse" href="#"
-          >Normativa</a
-        >
-      </div>
-      <div
-        class="col d-xl-flex justify-content-xl-center align-items-xl-center"
-        style="height: 40px"
-      >
-        <a class="text-dark miLink" data-bss-hover-animate="pulse" href="#"
-          >Biblioteca</a
-        >
-      </div>
-    </div>
+
+    -->
+
+    
+    
     <div
       class="jumbotron"
       style="
