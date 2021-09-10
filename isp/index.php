@@ -25,6 +25,8 @@
     />
     <link rel="stylesheet" href="assets/css/styles.min.css"/>
     <link rel="stylesheet" href="assets/css/styleEmiC.css">
+    <link rel="stylesheet" href="assets/css/mediaQueries.css">
+    
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
@@ -128,55 +130,17 @@
 
     </header>
 
-    <!--
-      <div class="grid-container grid-parent">
-        ::before
-        <a href="#" target="_blank" class="def" rel="nofollow">Nuestra Institución</a>
-        <a href="#" target="_blank" class="def" rel="nofollow">Capacitaciones</a>
-        <a href="#" target="_blank" class="def" rel="nofollow">Normativa</a>
-        <a href="#" target="_blank" class="def" rel="nofollow">Biblioteca</a>
-      </div>
+    <section>
+        <?php
 
-      <div class="col d-xl-flex justify-content-xl-center align-items-xl-center" style="height: 30px; background: rgba(86, 80, 80, 0.72)">       
-        <img class="img-fluid" src="assets/img/LogoLeiva.png" style="width: 30px"/>       
-      </div>
+            require_once ("/xampp/htdocs/ProyectoFirmat/TecnicaturaFirmat/isp/assets/php/carrusel.php");
 
-    -->
-
+        ?>
+    </section>
     
+   
     
-    <div
-      class="jumbotron"
-      style="
-        height: 400px;
-        background: url('assets/img/columnas.jpg') bottom / cover no-repeat;
-      "
-    >
-      <h1
-        style="
-          margin: 170px 0px 5px;
-          color: var(--cyan);
-          background: rgba(34, 31, 31, 0.42);
-          width: 50%;
-        "
-      >
-        Inscripciones Abiertas.
-      </h1>
-      <p
-        style="
-          width: 50%;
-          color: var(--white);
-          background: rgba(41, 31, 31, 0.45);
-        "
-      >
-        Mirá toda la oferta académica que tenemos para vos.
-      </p>
-      <p>
-        <a class="btn btn-info" role="button" style="margin: 0px 5px 0px 0px"
-          >Ver Carreras</a
-        ><a class="btn btn-success" role="button">Inscribirme</a>
-      </p>
-    </div>
+  
     <div class="svg-container py-5">
       <div class="waveWrapper waveAnimation">
         <div class="waveWrapperInner bgTop">
