@@ -25,7 +25,7 @@
     />
     <link rel="stylesheet" href="assets/css/styles.min.css"/>
     <link rel="stylesheet" href="assets/css/styleEmiC.css">
-    <link rel="stylesheet" href="assets/css/mediaQueries.css">
+    <!-- <link rel="stylesheet" href="assets/css/mediaQueries.css"> -->
     
     <link
       rel="stylesheet"
@@ -130,15 +130,6 @@
 
     </header>
 
-    <section>
-        <?php
-
-            require_once ("/xampp/htdocs/ProyectoFirmat/TecnicaturaFirmat/isp/assets/php/carrusel.php");
-
-        ?>
-    </section>
-    
-   
     
   
     <div class="svg-container py-5">
