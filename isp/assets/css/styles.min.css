@@ -116,7 +116,6 @@
 .footer-dark .item.text {
   margin-bottom: 36px;
 }
-
 @media (max-width: 767px) {
   .footer-dark .item:not(.social) {
     text-align: center;
