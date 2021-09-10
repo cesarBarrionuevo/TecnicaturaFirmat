@@ -2,14 +2,33 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
-    <title>ManuelLeiva</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"/>
-    <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css"/>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>MauelLeiva</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css"
+    />
     <link rel="stylesheet" href="assets/css/styles.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
+    <link rel="stylesheet" href="assets/css/styleEmiC.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    />
   </head>
 
   <body style="margin: 50px 0px 0px 0px">
@@ -158,7 +177,7 @@
         ><a class="btn btn-success" role="button">Inscribirme</a>
       </p>
     </div>
-    <div class="svg-container">
+    <div class="svg-container py-5">
       <div class="waveWrapper waveAnimation">
         <div class="waveWrapperInner bgTop">
           <div
@@ -186,9 +205,13 @@
         </div>
       </div>
     </div>
+    
+    <?php
+        require_once 'body.php';
+        ?>
 
-    <div style="margin: 200px">
-      <div class="card-group">
+      
+        <!--
         <div
           class="card"
           style="
@@ -278,6 +301,7 @@
         </div>
       </div>
     </div>
+  -->
     <div class="footer-dark">
       <footer>
         <div class="container">
@@ -339,5 +363,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/script.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/scriptEmiC.js"></script>
   </body>
 </html>
