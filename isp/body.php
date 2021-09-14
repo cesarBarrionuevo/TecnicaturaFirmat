@@ -172,7 +172,7 @@
           <div class="col animado">
             <div class="card border-0 animado">
               <a href="#">
-                <img class="card-img-top animado" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.3YrZBVoR0WvhstXmwV5-zgAAAA%26pid%3DApi&f=1" alt="Card image cap">
+                <img class="card-img-top animado" src="assets/img/foto1Noticias.png" alt="firmando carrera">
               </a>
               <div class="card-body px-0">
                 <h6 class="card-subtitle mb-2 color-sub-card small animado">INSTITUCIONAL</h6>
@@ -187,7 +187,7 @@
           <div class="col animado">
             <div class="card border-0">
               <a href="#">
-                <img class="card-img-top" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.3YrZBVoR0WvhstXmwV5-zgAAAA%26pid%3DApi&f=1" alt="Card image cap">
+                <img class="card-img-top" src="assets/img/foto2Noticias.png" alt="Card image cap">
               </a>
               <div class="card-body px-0">
                 <h6 class="card-subtitle mb-2 color-sub-card small">ALUMNOS</h6>
@@ -202,7 +202,7 @@
           <div class="col animado">
             <div class="card border-0">
               <a href="#">
-                <img class="card-img-top" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.3YrZBVoR0WvhstXmwV5-zgAAAA%26pid%3DApi&f=1" alt="Card image cap">
+                <img class="card-img-top" src="assets/img/foto3Noticias.png" alt="Los buenos">
               </a>
               <div class="card-body px-0">
                 <h6 class="card-subtitle mb-2 color-sub-card small">PROFESORADO</h6>
@@ -233,7 +233,7 @@
 
         <div class="row">
           <div class="col-lg-6" data-aos="zoom-in">
-            <img src="https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80" class="img-fluid" alt="">
+            <img src="assets/img/fotoTecDesSoft.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 d-flex flex-column justify-contents-center" data-aos="fade-left">
             <div class="content pt-4 pt-lg-0">
@@ -318,7 +318,7 @@
     <div class="container py-5">
       <section>
   
-        <h6 class="font-weight-bold text-center grey-text text-uppercase small mb-4">video</h6>
+        <h6 class="font-weight-bold text-center grey-text text-uppercase small mb-4">institucional</h6>
         <h3 class="font-weight-bold text-center dark-grey-text pb-2">Conocenos</h3>
         <hr class="w-header my-4">
         <p class="lead text-center text-muted pt-2 mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, quaerat.</p>
@@ -339,23 +339,23 @@
 
     <!-- =========== SECCIÓN CONTADOR ================ -->
 <section class="cont-color">
-  <div class="container-fluid py-4 mb-5">
+  <div class="container-fluid py-3 m-5">
     <div class="container text-center text-white">
         <div class="row">
             <div class="col-3">
-                <h1 class="display-5"><b>1200</b></h1>
+                <h1 class="display-5"><b id="numero1">300</b></h1>
                 <p><b>Estudiantes</b></p>
             </div>
             <div class="col-3">
-                <h1 class="display-5"><b>46</b></h1>
+                <h1 class="display-5"><b id="numero2">20</b></h1>
                 <p><b>Carreras</b></p>
             </div>
             <div class="col-3">
-                <h1 class="display-5"><b>30</b></h1>
+                <h1 class="display-5"><b id="numero3">15</b></h1>
                 <p><b>Eventos</b></p>
             </div>
             <div class="col-3">
-                <h1 class="display-5"><b>27</b></h1>
+                <h1 class="display-5"><b id="numero4">27</b></h1>
                 <p><b>Profesores</b></p>
             </div>
           </div>
@@ -368,14 +368,14 @@
     <section id="faq" class="faq">
       <div class="container">
 
-        <div class="section-title" data-aos="fade-up">
-          <h2>Preg frecuentes</h2>
+        <div class="section-title pb-2" data-aos="fade-up">
+          <h2>Preguntas frecuentes</h2>
         </div>
 
         <ul class="faq-list">
 
           <li data-aos="fade-up">
-            <a data-toggle="collapse" class="" href="#faq1">Non consectetur a erat nam at lectus urna duis? <i class="icofont-simple-up"></i></a>
+            <a data-toggle="collapse" class="" href="#faq1">¿Cómo me inscribo?<i class="icofont-simple-up"></i></a>
             <div id="faq1" class="collapse show" data-parent=".faq-list">
               <p>
                 Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.

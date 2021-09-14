@@ -1,12 +1,10 @@
-
-
-
-
 @media (max-width: 576px) {
     #textoCarrusel {
         font-size: 15px ;
-        color: #6f42c1 ;
+        color: #ffffff ;
         text-decoration: none;
+        background-color: rgba(120, 26, 209, 0.26);
+        border-radius: 5px;
         
     }
 
@@ -26,8 +24,10 @@
     
     #textoCarrusel{
         font-size: 20px ;
-        color: blueviolet ;
+        color: #ffffff ;
         text-decoration: none;
+        background-color: rgba(120, 26, 209, 0.26);
+        border-radius: 5px;
     }
 
     .carousel{
@@ -46,8 +46,10 @@
 @media (min-width: 768px) and (max-width: 992px) {
     #textoCarrusel{
         font-size: 25px ;
-        color: blueviolet ;
+        color: #ffffff ;
         text-decoration: none;
+        background-color: rgba(120, 26, 209, 0.26);
+        border-radius: 5px;
     }
     
     .carousel{
@@ -66,8 +68,10 @@
 @media (min-width: 993px) {
     #textoCarrusel{
         font-size: 30px ;
-        color: blueviolet ;
+        color: #ffffff ;
         text-decoration: none;
+        background-color: rgba(120, 26, 209, 0.26);
+        border-radius: 5px;
     }
     
     .carousel{
@@ -87,5 +91,8 @@
 }
 
 
-            
-        
+#textoCarrusel:hover{
+    background-color: rgba(115, 28, 196, 0.623);
+    color: antiquewhite;
+    border-radius: 10px;
+}
