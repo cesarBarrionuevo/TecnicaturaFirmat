@@ -21,7 +21,7 @@
                     <div class="carousel-item active">
                         <img class="d-block w-100 imagenCarrusel" data-src="holder.js/600x300?auto=yes&amp;bg=777&amp;fg=555&amp;text=First slide" alt="First slide [900x300]" src="assets/img/ispManuelLeivaCarruselImg1.jpg" data-holder-rendered="true">
                         <div class="carousel-caption "> 
-                            <a href="#" id="textoCarrusel" >¡Conoce todos nuestas propuestas de estudio!</a>
+                            <a href="#" id="textoCarrusel" ></a>
                                   
                         
                         </div>
@@ -29,7 +29,7 @@
                     <div class="carousel-item ">
                         <img class="d-block w-100 imagenCarrusel" data-src="holder.js/600x300?auto=yes&amp;bg=777&amp;fg=555&amp;text=First slide" alt="First slide [900x300]" src="assets/img/graduados.jpg" data-holder-rendered="true">
                         <div class="carousel-caption ">  
-                            <a href="#" id="textoCarrusel" >¿Queres estudiar programación?</a>
+                            <a href="#" id="textoCarrusel" >¡Ven a estudiar con nosotros, únete a ISP1!</a>
                                          
                             
                         </div>
@@ -37,7 +37,7 @@
                     <div class="carousel-item">
                         <img class="d-block w-100 imagenCarrusel " data-src="holder.js/600x300?auto=yes&amp;bg=777&amp;fg=555&amp;text=First slide" alt="First slide [900x300]" src="assets/img/ispManuelLeivaCarruselBibliotecaImg3.jpg" data-holder-rendered="true">
                         <div class="carousel-caption  ">                    
-                                <a href="#" id="textoCarrusel" >¡Conoce todos los libros disponibles de nuestra biblioteca! </a>
+                                <a href="#" id="textoCarrusel" >¡Te esperamos! </a>
                                 
                         </div>
                     </div>
@@ -45,7 +45,7 @@
                     <div class="carousel-item">
                         <img class="d-block w-100 imagenCarrusel " data-src="holder.js/600x300?auto=yes&amp;bg=777&amp;fg=555&amp;text=First slide" alt="First slide [900x300]" src="assets/img/ispManuelLeivaCarruselCampusImg2.jpg" data-holder-rendered="true">
                         <div class="carousel-caption  ">                    
-                                <a href="#" id="textoCarrusel" >¡Conoce todos los libros disponibles de nuestra biblioteca! </a>
+                                <a href="#" id="textoCarrusel" ></a>
                                 
                         </div>
                     </div>

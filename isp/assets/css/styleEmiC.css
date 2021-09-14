@@ -177,3 +177,54 @@
     .faq .faq-list a.collapsed i::before {
     content: "\eab2" !important;
     }
+
+
+    /*-------- CSS de NICO ---------*/
+
+
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  margin: -0.125rem 0 0;
+}
+
+.dropdown > .dropdown-toggle:active {
+  pointer-events: none;
+}
+
+.cambioFondo:hover {
+  background: linear-gradient(
+    rgba(158, 158, 158, 0.849) 0%,
+    rgba(97, 97, 97, 0.801) 100%
+  ) !important;
+}
+
+.divImg {
+  background-color: rgb(0, 0, 0);
+  text-align: justify;
+}
+
+.img-fluid {
+  width: 36px;
+}
+
+.subMenu {
+  height: 40px;
+  margin: 0px;
+  background: linear-gradient(
+    rgba(219, 172, 84, 0.849) 0%,
+    rgba(226, 219, 156, 0.801) 100%
+  );
+  opacity: 0.9;
+}
+
+
+.subMenuTitulo {
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  text-shadow: rgb(200, 200, 200) 1px 1px 3px;
+}

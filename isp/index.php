@@ -50,7 +50,7 @@
           <div class="collapse navbar-collapse" id="menu">
 
             <div class="nav-item d-none d-xs-block d-md-block" style="background-color: rgb(0, 0, 0); text-align: justify;">       
-              <img class="img-fluid" src="assets/img/LogoLeiva.png" style="width: 36px;"/>       
+              <img class="img-fluid" src="assets/img/logoRosa.png" style="width: 36px;"/>       
             </div>
             
             <ul class="navbar-nav flex-grow-1 justify-content-between">
@@ -130,6 +130,15 @@
 
     </header>
 
+    <section>
+        <?php
+
+            require_once "assets/php/carrusel.php";
+
+        ?>
+    </section>
+    
+   
     
   
     <div class="svg-container py-5">
@@ -257,24 +266,23 @@
       </div>
     </div>
   -->
-    <div class="footer-dark">
+  <div class="footer-dark bg-dark">
       <footer>
         <div class="container">
           <div class="row">
-            <div class="col-sm-6 col-md-3 item">
-              <h3>Servicios</h3>
+            <div class="col-sm-6 col-md-6 item">
+              <h3>Enlaces Rápidos</h3>
               <ul>
-                <li><a href="#">Carreras</a></li>
-                <li><a href="#">Docentes</a></li>
-                <li><a href="#">Alumnado</a></li>
-                <li><a href="#">Campus Virtual</a></li>
-                <li><a href="#">Biblioteca</a></li>
-                <li><a href="#">Capacitaciones</a></li>
-                <li><a href="#">Normativa</a></li>
                 <li></li>
+                <li><a href="https://isp1-sfe.infd.edu.ar/aula/acceso.cgi">Campus Virtual</a></li>
+                <li><a href="http://www.isp1ml.edu.ar/default.aspx?id=9">Biblioteca</a></li>
+                <li><a href="#">Capacitaciones</a></li>
+                <li><a href="http://www.isp1ml.edu.ar/default.aspx?id=10">Normativa</a></li>
+                <li></li>
+                <h4></h4>
               </ul>
             </div>
-            <div class="col-sm-6 col-md-3 col-xl-4 item">
+            <div class="col-sm-6 col-md-6 col-xl-4 item">
               <h3>Contactos</h3>
               <ul>
                 <li>
@@ -283,20 +291,20 @@
                   >
                 </li>
                 <li>
-                  <a href="#"
+                  <a href="mailto:ingresantesprofesorado1@gmail.com"
                     ><strong>ingresantesprofesorado1@gmail.com</strong></a
                   >
                 </li>
                 <li>
-                  <a href="#"
+                  <a href="mailto:tecnicatura01software01firmat@gmail.com"
                     ><strong
-                      >tecnicatura01software01firmat@gmail.com&nbsp;</strong
+                      >tecnic01software01firmat@gmail.com&nbsp;</strong
                     ></a
                   >
                 </li>
               </ul>
             </div>
-            <div class="col-md-6 col-xl-5 item text">
+            <div class="col-md-4 col-xl-3 item text">
               <h3>Instituto Superior N° 1 "Manuel Leiva"</h3>
               <p>Dante Alighieri 2385&nbsp;</p>
               <ul>
@@ -305,20 +313,19 @@
               </ul>
             </div>
             <div class="col item social">
-              <a href="#"><i class="icon ion-social-facebook"></i></a
+              <a href="https://www.facebook.com/ISP-1-Manuel-Leiva-Casida-100114064808812/"><i class="icon ion-social-facebook"></i></a
               ><a href="#"><i class="icon ion-social-twitter"></i></a
               ><a href="#"><i class="icon ion-social-github"></i></a
               ><a href="#"><i class="icon ion-social-instagram"></i></a>
             </div>
           </div>
-          <p class="copyright">CABSistema[s] © DesarrolloWeb 2020</p>
+          <p class="copyright"> 3ero TDS Firmat © DesarrolloWeb 2021</p>
         </div>
       </footer>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/script.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/scriptEmiC.js"></script>
   </body>
 </html>
